@@ -1,0 +1,59 @@
+:root {
+    --text-color: #212121;
+    --logo-colour: #2196f3;
+    --title-color: #FFFFF;
+    --paragraphs-color: #757575;
+    --bg-color: #f5f4fa;
+}
+
+*{
+    text-decoration: none;
+}
+
+.logo{
+    color: var(--text-color);
+}
+.logo abbr{
+    color: var(--logo-colour);
+}
+
+.nav{
+    color: var(--text-color);
+}
+
+.phone, 
+.mail{
+    color: var(--paragraphs-color);
+}
+
+.nameorder{
+    color: var(--bg-color);
+}
+
+.btn-order{
+    color: var(--logo-colour);
+}
+
+.skills-name{
+    color: var(--text-color);
+}
+
+.skills-article{
+    color: var(--paragraphs-color);
+}
+
+.offers-box-name{
+    color: var(--text-color);
+}
+
+.team-box-name{
+    color: var(--text-color);
+}
+
+.team-items-job{
+    color: var(--text-color);
+}
+
+.adress{
+    color: var(--bg-color);
+}
