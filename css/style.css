@@ -1,59 +1,76 @@
 :root {
-    --text-color: #212121;
-    --logo-colour: #2196f3;
-    --title-color: #FFFFF;
-    --paragraphs-color: #757575;
-    --bg-color: #f5f4fa;
+  --text-color: #212121;
+  --logo-colour: #2196f3;
+  --title-color: #FFFFF;
+  --paragraphs-color: #757575;
+  --bg-color: #f5f4fa;
 }
 
-*{
-    text-decoration: none;
+* {
+  text-decoration: none;
 }
 
-.logo{
-    color: var(--text-color);
-}
-.logo abbr{
-    color: var(--logo-colour);
+body{
+    font-family: "Roboto";
 }
 
-.nav{
-    color: var(--text-color);
+.header{
+    line-height: auto;
 }
 
-.phone, 
-.mail{
-    color: var(--paragraphs-color);
+.logo {
+  font-family: "Raleway", bold;
+  color: var(--text-color);
+}
+.logo abbr {
+  color: var(--logo-colour);
 }
 
-.nameorder{
-    color: var(--bg-color);
+.nav {
+  color: var(--text-color);
 }
 
-.btn-order{
-    color: var(--logo-colour);
+.phone,
+.mail {
+  color: var(--paragraphs-color);
 }
 
-.skills-name{
-    color: var(--text-color);
+.nameorder {
+  color: var(--bg-color);
+  line-height: 60px;
 }
 
-.skills-article{
-    color: var(--paragraphs-color);
+.btn-order {
+  color: var(--logo-colour);
+  line-height: 30px;
 }
 
-.offers-box-name{
-    color: var(--text-color);
+.skills-name {
+  color: var(--text-color);
+  line-height: auto;
 }
 
-.team-box-name{
-    color: var(--text-color);
+.skills-article {
+  color: var(--paragraphs-color);
+  line-height: 24;
 }
 
-.team-items-job{
-    color: var(--text-color);
+.offers-box-name {
+  color: var(--text-color);
+  line-height: auto;
 }
 
-.adress{
-    color: var(--bg-color);
+.team-box-name {
+  color: var(--text-color);
+  line-height: auto;
+}
+
+.team-items-job {
+  color: var(--text-color);
+  line-height: auto;
+}
+
+.adress {
+  color: var(--bg-color);
+  line-height: auto;
 }

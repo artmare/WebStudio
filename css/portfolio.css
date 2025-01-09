@@ -1,51 +1,54 @@
 :root {
-    --text-color: #212121;
-    --logo-colour: #2196f3;
-    --title-color: #FFFFF;
-    --paragraphs-color: #757575;
-    --bg-color: #f5f4fa;
+  --text-color: #212121;
+  --logo-colour: #2196f3;
+  --title-color: #FFFFF;
+  --paragraphs-color: #757575;
+  --bg-color: #f5f4fa;
 }
 
-*{
-    text-decoration: none;
+* {
+  text-decoration: none;
+}
+
+body{
+    font-family: "Roboto";
 }
 
 /* HEADER */
 
-
-.logo{
-    color: var(--text-color);
+.logo {
+  font-family: "Raleway", bold;
+  color: var(--text-color);
 }
-.logo abbr{
-    color: var(--logo-colour);
-}
-
-.nav{
-    color: var(--text-color);
+.logo abbr {
+  color: var(--logo-colour);
 }
 
-.phone, 
-.mail{
-    color: var(--paragraphs-color);
+.nav {
+  color: var(--text-color);
 }
 
+.phone,
+.mail {
+  color: var(--paragraphs-color);
+}
 
 /* MAIN */
 
-.categories{
-    color: var(--text-color);
+.categories {
+  color: var(--text-color);
 }
 
-.goods-name{
-    color: var(--text-color);
+.goods-name {
+  color: var(--text-color); 
 }
 
-.goods-artile{
-    color: var(--paragraphs-color);
+.goods-artile {
+  color: var(--paragraphs-color);
 }
 
 /* FOOTER */
 
-.adress{
-    color: var(--bg-color);
+.adress {
+  color: var(--bg-color);
 }
