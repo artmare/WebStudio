@@ -10,12 +10,21 @@
   text-decoration: none;
 }
 
-body{
-    font-family: "Roboto";
+body {
+  font-family: "Roboto";
 }
 
-.header{
-    line-height: auto;
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  line-height: auto;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo {
@@ -69,6 +78,10 @@ body{
   color: var(--text-color);
   line-height: auto;
 }
+
+/* .team-list {
+  display: flex;
+} */
 
 .adress {
   color: var(--bg-color);

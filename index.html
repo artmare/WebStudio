@@ -17,12 +17,14 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
-      <div class="header-box">
-        <ul class="nav">
+      <div class="container">
+        <nav class="nav">
+        <ul class="nav-list">
           <li class="nav-item">
             <h1 class="logo"><abbr>Web</abbr>Studio</h1>
           </li>
@@ -43,93 +45,105 @@
           </li>
         </ul>
       </div>
+      
+      </nav>
+        
+      </div>
     </header>
 
     <main class="main">
       <div class="main-box">
-        <ul class="servis-order">
-          <li class="order-items">
-            <h2 class="name-order">Ефективні рішення для вашого бізнесу</h2>
-          </li>
-          <li class="order-items">
-            <button class="btn-order" type="submit">Замовити послугу</button>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="servis-order">
+            <li class="order-items">
+              <h2 class="name-order">Ефективні рішення для вашого бізнесу</h2>
+            </li>
+            <li class="order-items">
+              <button class="btn-order" type="submit">Замовити послугу</button>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="main-skill">
-        <ul class="skills">
-          <li class="skills-items">
-            <h3 class="skills-name">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="skills-article">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li class="skills-items">
-            <h3 class="skills-name">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="skills-article">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li class="skills-items">
-            <h3 class="skills-name">ПЛАНУВАННЯ</h3>
-            <p class="skills-article">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li class="skills-items">
-            <h3 class="skills-name">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="skills-article">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="skills">
+            <li class="skills-items">
+              <h3 class="skills-name">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="skills-article">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li class="skills-items">
+              <h3 class="skills-name">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="skills-article">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li class="skills-items">
+              <h3 class="skills-name">ПЛАНУВАННЯ</h3>
+              <p class="skills-article">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="skills-items">
+              <h3 class="skills-name">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="skills-article">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="offers-box">
-        <h2 class="offers-box-name">Чим ми займаємося</h2>
-        <ul class="offers-list-imgs">
-          <li class="offers-list-items">
-            <img src="./img/img1.png" alt="" />
-          </li>
-          <li class="offers-list-items">
-            <img src="./img/img2.png" alt="" />
-          </li>
-          <li class="offers-list-items">
-            <img src="./img/img3.png" alt="" />
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="offers-box-name">Чим ми займаємося</h2>
+          <ul class="offers-list-imgs">
+            <li class="offers-list-items">
+              <img src="./img/img1.png" alt="" />
+            </li>
+            <li class="offers-list-items">
+              <img src="./img/img2.png" alt="" />
+            </li>
+            <li class="offers-list-items">
+              <img src="./img/img3.png" alt="" />
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="team-box">
-        <h2 class="team-box-name">Наша команда</h2>
-        <ul class="team-list">
-          <li class="team-items">
-            <img class="team-items-img" src="./img/img4.png" alt="" />
-            <h3 class="team-items-name">Михайло Єрмаков</h3>
-            <p class="team-items-job">UI Designer</p>
-          </li>
-          <li class="team-items">
-            <img class="team-items-img" src="./img/img5.jpg" alt="" />
-            <h3 class="team-items-name">Микола Тарасов</h3>
-            <p class="team-items-job">Marketing</p>
-          </li>
-          <li class="team-items">
-            <img class="team-items-img" src="./img/img6.jpg" alt="" />
-            <h3 class="team-items-name">Ольга Рєпіна</h3>
-            <p class="team-items-job">Frontend Developer</p>
-          </li>
-          <li class="team-items">
-            <img class="team-items-img" src="./img/img7.jpg" alt="" />
-            <h3 class="team-items-name">Ігор Дем'яненко</h3>
-            <p class="team-items-job">Product Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="team-box-name">Наша команда</h2>
+          <ul class="team-list">
+            <li class="team-items">
+              <img class="team-items-img" src="./img/img4.png" alt="" />
+              <h3 class="team-items-name">Михайло Єрмаков</h3>
+              <p class="team-items-job">UI Designer</p>
+            </li>
+            <li class="team-items">
+              <img class="team-items-img" src="./img/img5.jpg" alt="" />
+              <h3 class="team-items-name">Микола Тарасов</h3>
+              <p class="team-items-job">Marketing</p>
+            </li>
+            <li class="team-items">
+              <img class="team-items-img" src="./img/img6.jpg" alt="" />
+              <h3 class="team-items-name">Ольга Рєпіна</h3>
+              <p class="team-items-job">Frontend Developer</p>
+            </li>
+            <li class="team-items">
+              <img class="team-items-img" src="./img/img7.jpg" alt="" />
+              <h3 class="team-items-name">Ігор Дем'яненко</h3>
+              <p class="team-items-job">Product Designer</p>
+            </li>
+          </ul>
+        </div>
       </div>
     </main>
 
-    <footer>
-      <div class="footer-box">
+    <footer class="footer">
+      <div class="container">
         <ul class="footer-nav-list">
           <li class="footer-nav-item logo">
             <h2><abbr>Web</abbr>Studio</h2>
