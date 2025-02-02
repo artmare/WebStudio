@@ -23,7 +23,6 @@ body {
 
 .header {
   line-height: auto;
-  padding-top: 24px;
   padding-bottom: 25px;
 }
 
@@ -39,24 +38,73 @@ body {
   color: var(--text-color);
 }
 
-.phone,
-.mail {
-  color: var(--paragraphs-color);
+.nav-list,
+.logo {
+  display: flex;
 }
 
-.nameorder {
-  color: var(--bg-color);
-  line-height: 60px;
+.nav-item {
+  padding-right: 50px;
+  padding-top: 29.5px;
+}
+
+.nav-item:first-child {
+  padding-right: 93px;
+  padding-top: 24px;
+}
+
+.nav-item:nth-child(4) {
+  padding-right: 272px;
+}
+
+.main {
+  padding-bottom: 94px;
+}
+
+.main-box {
+  padding-bottom: 280px;
+  background: #2f303a;
+}
+
+.service-order {
+  background-color: #2f303a;
+}
+
+.name-order {
+  color: #fff;
+
+  width: 696px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px; /* 136.364% */
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+
+  margin-left: 253px;
+  padding-top: 200px;
+  padding-bottom: 30px;
 }
 
 .btn-order {
-  color: var(--logo-colour);
-  line-height: 30px;
-}
+  width: 216px;
+  height: 50px;
 
-.skills-name {
-  color: var(--text-color);
-  line-height: auto;
+  margin-left: 490px;
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
 }
 
 .skills-article {
