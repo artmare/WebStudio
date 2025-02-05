@@ -58,23 +58,29 @@ body {
   padding-right: 272px;
 }
 
-
 /* MAIN */
 
 .categories {
   color: var(--text-color);
-
 }
 
-.categories-list{
+.categories-list {
   display: flex;
   justify-content: center;
   padding-bottom: 34px;
 }
 
-.categories-items{
+.categories-items {
   padding-right: 55px;
-  
+
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.48px;
 }
 
 .goods-list {
@@ -85,16 +91,99 @@ body {
   grid-row-gap: 30px;
 }
 
+.goods-imgs {
+  margin-bottom: 20px;
+  width: 370px;
+  height: 294px;
+  flex-shrink: 0;
+}
+
 .goods-name {
   color: var(--text-color);
+  margin-bottom: 4px;
+  width: 322px;
+  color: #212121;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 200% */
+  letter-spacing: 1.08px;
 }
 
 .goods-artile {
   color: var(--paragraphs-color);
+  width: 322px;
+  color: #757575;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.48px;
 }
 
 /* FOOTER */
+.footer {
+  height: 252px;
+  flex-shrink: 0;
+  background-color: #2f303a;
+  margin-top: 115px;
+}
 
-.adress {
-  color: var(--bg-color);
+.footer-nav-list {
+  padding-top: 60px;
+}
+
+.footer-nav-logo {
+  color: var(--logo-colour);
+  padding-bottom: 20px;
+}
+
+.footer-nav-logo abbr {
+  color: #fff;
+}
+
+.footer-nav-adress {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+
+  padding-bottom: 9px;
+}
+
+.footer-nav-adress a {
+  color: #fff;
+}
+
+.footer-nav-mail {
+  padding-bottom: 9px;
+
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+
+.footer-nav-mail a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-nav-phone {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+
+.footer-nav-phone a {
+  color: rgba(255, 255, 255, 0.6);
 }
