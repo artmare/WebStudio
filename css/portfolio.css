@@ -8,9 +8,10 @@
 
 * {
   text-decoration: none;
+  list-style: none;
 }
 
-body{
+body {
   font-family: "Roboto";
 }
 
@@ -21,7 +22,10 @@ body{
   margin: 0 auto;
 }
 
-/* HEADER */
+.header {
+  line-height: auto;
+  padding-bottom: 94px;
+}
 
 .logo {
   font-family: "Raleway", bold;
@@ -35,19 +39,54 @@ body{
   color: var(--text-color);
 }
 
-.phone,
-.mail {
-  color: var(--paragraphs-color);
+.nav-list,
+.logo {
+  display: flex;
 }
+
+.nav-item {
+  padding-right: 50px;
+  padding-top: 29.5px;
+}
+
+.nav-item:first-child {
+  padding-right: 93px;
+  padding-top: 24px;
+}
+
+.nav-item:nth-child(4) {
+  padding-right: 272px;
+}
+
 
 /* MAIN */
 
 .categories {
   color: var(--text-color);
+
+}
+
+.categories-list{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 34px;
+}
+
+.categories-items{
+  padding-right: 55px;
+  
+}
+
+.goods-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
 }
 
 .goods-name {
-  color: var(--text-color); 
+  color: var(--text-color);
 }
 
 .goods-artile {

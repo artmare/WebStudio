@@ -5,4 +5,15 @@
     box-sizing: border-box;
 
     list-style: none;
+
+    text-decoration: none;
+
+    
+}
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+  color: #666;
 }
