@@ -111,6 +111,17 @@ body {
   letter-spacing: 0.96px;
 }
 
+.svg{
+  width: 70px;
+  height: 70px;
+  fill: #212121;
+  /* stroke: #2196F3; */
+  margin-inline: 100px;
+  margin-bottom: 50px;
+}
+
+
+
 .skills {
   display: flex;
   margin-bottom: 94px;
