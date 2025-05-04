@@ -33,19 +33,19 @@ body {
   fill: #757575;
 }
 
-.email a:hover{
+.email a:hover {
   color: #2196f3;
 }
 
-.email:hover svg{
+.email:hover svg {
   fill: #2196f3;
 }
 
-.telephone a:hover{
+.telephone a:hover {
   color: #2196f3;
 }
 
-.telephone:hover svg{
+.telephone:hover svg {
   fill: #2196f3;
 }
 
@@ -199,6 +199,31 @@ body {
 
 .offers-list-imgs li {
   padding-right: 30px;
+}
+
+.offer-text {
+  background: rgba(47, 48, 58, 0.8);
+  width: 370px;
+  height: 70px;
+  flex-shrink: 0;
+  padding: 27px;
+
+  position: relative;
+  bottom: 73px;
+}
+
+.offer-text p {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+
+  
 }
 
 .svg-socialmedias {
