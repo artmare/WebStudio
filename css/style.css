@@ -197,6 +197,8 @@ body {
   height: 44px;
   border-radius: 50%;
   padding: 12px;
+  margin-right: 10px;
+  margin-top: 16px;
 }
 
 .item-svg-socialmedias:hover {
@@ -205,6 +207,16 @@ body {
 
 .item-svg-socialmedias:hover svg {
   fill: #fff;
+}
+
+.team-items {
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+
+  margin-right: 30px;
 }
 
 .team-list {
@@ -263,13 +275,24 @@ body {
 }
 
 .sponsors {
-  margin-top: 50px;
+  margin-top: 94px;
+}
+
+.sponsors-titel {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  margin-bottom: 50px;
 }
 
 .sponsors-list {
   display: flex;
   align-items: center;
-  
 }
 
 .sponsors-item {
@@ -280,7 +303,6 @@ body {
   margin-right: 30px;
   padding-left: 32px;
   padding-top: 16px;
-  
 }
 
 .sponsors-item:hover {
@@ -292,7 +314,6 @@ body {
 }
 
 .svg-sponsors {
-  
   display: flex;
   width: 106px;
   height: 60px;
@@ -305,8 +326,62 @@ body {
 
 .footer {
   height: 252px;
-  flex-shrink: 0;
   background-color: #2f303a;
+}
+
+.footerall {
+  display: flex;
+}
+
+.footer1 {
+  margin-right: 70px;
+}
+
+.footer2 {
+  margin-top: 72px;
+  text-transform: uppercase;
+}
+
+.name-smfooter {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.svg-socialmedias-footer {
+  width: 20px;
+  height: 20px;
+  stroke: #ffffff;
+  fill: #ffffff;
+}
+
+.list-svg-socialmedias-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-svg-socialmedias-footer {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-right: 10px;
+}
+
+.item-svg-socialmedias-footer:hover {
+  background-color: #2196f3;
+}
+
+.item-svg-socialmedias:hover svg {
+  fill: #fff;
 }
 
 .footer-nav-list {
