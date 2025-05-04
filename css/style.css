@@ -27,6 +27,28 @@ body {
   padding-bottom: 25px;
 }
 
+.header svg {
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+}
+
+.email a:hover{
+  color: #2196f3;
+}
+
+.email:hover svg{
+  fill: #2196f3;
+}
+
+.telephone a:hover{
+  color: #2196f3;
+}
+
+.telephone:hover svg{
+  fill: #2196f3;
+}
+
 .logo {
   font-family: "Raleway", bold;
   color: var(--text-color);
@@ -45,7 +67,7 @@ body {
 }
 
 .nav-item {
-  padding-right: 50px;
+  padding-right: 40px;
   padding-top: 29.5px;
 }
 
